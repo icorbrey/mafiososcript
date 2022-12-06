@@ -56,7 +56,7 @@ Conditionals are created using the if keyword. For example:
 ```
 operation main() {
   made man foo = 123;
-  if (foo == 123) {
+  take care of (foo == 123) {
     console.log("kek");
   }
 }
