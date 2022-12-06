@@ -19,16 +19,16 @@ echo "module.exports = require('./mafioso-script-plugin');"
 
 ### Variables
 
-In MafiosoScript, all variables must be declared with the made man keyword. For example:
+In MafiosoScript, all variables must be declared with the `made man` keyword. For example:
 
 ```
-made man kek = "operation";
+made man kek = "string";
 made man foo = 123;
 ```
 
 ### Functions
 
-Functions are declared using the operation keyword. For example:
+Functions are declared using the `operation` keyword. For example:
 
 ```
 operation add(a, b) {
@@ -38,7 +38,7 @@ operation add(a, b) {
 
 ### Loops
 
-Loops are created using the hit keyword. For example:
+Loops are created using the `hit` keyword. For example:
 
 ```
 operation main() {
@@ -51,7 +51,7 @@ operation main() {
 
 ### Conditionals
 
-Conditionals are created using the if keyword. For example:
+Conditionals are created using the `take care of` keyword. For example:
 
 ```
 operation main() {
