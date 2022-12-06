@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>fileTypes</key>
+    <array>
+        <string>mafioso</string>
+    </array>
+    <key>name</key>
+    <string>MafiosoScript</string>
+    <key>patterns</key>
+    <array>
+        <dict>
+            <key>name</key>
+            <string>keyword.control.mafioso</string>
+            <key>match</key>
+            <string>\b(operation|made man|family|cement shoes|hit|take care of|or else|whack)\b</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>string.quoted.double.mafioso</string>
+            <key>begin</key>
+            <string>"</string>
+            <key>end</key>
+            <string>"</string>
+            <key>patterns</key>
+            <array>
+                <dict>
+                    <key>include</key>
+                    <string>#string_escaped_char</string>
+                </dict>
+            </array>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>comment.line.double-slash.mafioso</string>
+            <key>match</key>
+            <string>//.*$</string>
+        </dict>
+    </array>
+    <key>scopeName</key>
+    <string>source.mafioso</string>
+    <key>uuid</key>
+    <string>0a7f9efb-7094-47da-8f10-20cce1f51e5d</string>
+</dict>
+</plist>
